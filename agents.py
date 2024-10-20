@@ -1,7 +1,9 @@
 from textwrap import dedent
 from groq import Groq
 from crewai import Agent
-from tasks import ContentResearchTool, TextSummarizationTool  # Ensure you import your task tools
+from tasks import ContentTasks  # Assuming ContentTasks is in tasks.py
+from tool_1 import ContentResearchTool  # Assuming ContentResearchTool is in tool_1.py
+from tool_2 import TextSummarizationTool  # Assuming TextSummarizationTool is in tool_2.py
 
 class ContentCreators:
     def __init__(self):
