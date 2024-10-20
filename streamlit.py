@@ -1,7 +1,7 @@
 import streamlit as st
 from main import ContentCrew  # Import the ContentCrew class
-from tools import ContentResearchTool  # Import your content research tool
-from tools import SummarizationTool  # Import your summarization tool
+from tool_1 import ContentResearchTool  # Import your content research tool
+from tool_2 import SummarizationTool  # Import your summarization tool
 
 # Set the title of the Streamlit app
 st.title("AI Content Generator")
